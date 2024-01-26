@@ -4,8 +4,8 @@ import numpy as np
 import streamlit as st
 import joblib
 
-df = pd.read_pickle('Data/df_RFM_final2.pkl')
-Merchants_dict = joblib.load('Data/Merchants_dict.pkl')
+df = pd.read_pickle('df_RFM_final2.pkl')
+Merchants_dict = joblib.load('Merchants_dict.pkl')
 
 def Top_3_Merchants(user_id):
     
